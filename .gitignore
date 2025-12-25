@@ -1,0 +1,35 @@
+# Build outputs
+out/
+build/
+*.pyc
+__pycache__/
+*.o
+*.a
+*.so
+*.exe
+
+# Perfetto specific
+*.trace
+*.perfetto-trace
+*.pftrace
+
+# Python
+venv/
+env/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large files
+node_modules/
+*.zip
+*.tar.gz
